@@ -1,39 +1,47 @@
 #page {
   display: grid;
   width: 100%;
-  height: 250px;
+  height: 900px;
   grid-template-areas:
     "head  head"
     "nav   nav"
     "aside main"
     "foot  foot";
-  grid-template-rows: 1fr 1fr 2fr 1fr;
+  grid-template-rows: .75fr 1fr 3fr .75fr;
   grid-template-columns: 1fr 3fr;
+  
+  background-image: url(pallate.png);
 }
 
 #page > header {
   grid-area: head;
   background-color: #cb0b59;
+  margin: 20px;
+  
 }
 
 #page > nav {
   grid-area: nav;
   background-color: #7b1346;
+  margin: 20px;
 }
 
 #page > main {
   grid-area: main;
   background-color: #00ff9f;
+  margin: 20px;
 }
 
 #page > aside {
     grid-area: aside;
     background-color: #21a0b6;
+    margin: 20px;
 }
 
 #page > footer {
   grid-area: foot;
   background-color: #0b4383;
+  margin: 20px;
 }
 
 ul {
@@ -62,4 +70,8 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #04AA6D;
+}
+
+#page > header, nav, main, aside, footer {
+border: solid black;
 }
