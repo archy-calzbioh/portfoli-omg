@@ -1,0 +1,27 @@
+body{
+    background-image: url(pallate.png);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#header{
+    background-color: #cb0b59;
+}
+
+.navbar{
+     background-color: #7b1346;
+}
+
+.main{
+    background-color: #00ff9f
+}
+
+.aside { 
+    background-color: #21a0b6;
+
+}
+
+.footer {
+
+  background-color: #0b4383;
+
+}
