@@ -25,3 +25,10 @@ body{
   background-color: #0b4383;
 
 }
+
+.active {
+  background-color: #04AA6D;
+}
+a:hover:not(.active) {
+  background-color: #111;
+}
