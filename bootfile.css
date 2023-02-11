@@ -32,3 +32,10 @@ body{
 a:hover:not(.active) {
   background-color: #111;
 }
+
+.test{
+    border:1px solid red;
+}
+.ui-effects-wrapper {
+    display : inline-block;
+}

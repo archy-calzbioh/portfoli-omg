@@ -10,3 +10,17 @@ for (var i = 0; i < btns.length; i++) {
     document.getElementById("main").innerHTML = text;
   });
 }
+
+
+$(document).ready(function () {
+  var counter = 0,
+    $chars = $(".test").children();
+
+  setInterval(function () {
+    $chars.eq(counter).effect("bounce", { times: 1 }, 500);
+    counter++;
+    if (counter >= $chars.length) {
+      counter = 0;
+    }
+  }, 250);
+});
