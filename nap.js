@@ -7,7 +7,7 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
     let myAnchor = document.getElementsByClassName("link active");
     let text = myAnchor[0].getAttribute("href");
-    document.getElementById("main").innerHTML = text;
+    document.getElementById("main_inner").innerHTML = text;
   });
 }
 

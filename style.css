@@ -77,3 +77,7 @@ li a:hover:not(.active) {
 #page > header, nav, main, aside, footer {
 border: solid black;
 }
+
+.aside{
+  min-width: 300px;
+}

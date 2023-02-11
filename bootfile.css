@@ -12,7 +12,8 @@ body{
 }
 
 .main{
-    background-color: #00ff9f
+    background-color: #00ff9f;
+    height: 500px;
 }
 
 .aside { 
@@ -21,8 +22,8 @@ body{
 }
 
 .footer {
-
   background-color: #0b4383;
+  height: 50px;
 
 }
 
@@ -33,9 +34,20 @@ a:hover:not(.active) {
   background-color: #111;
 }
 
-.test{
-   
-}
 .ui-effects-wrapper {
     display : inline-block;
+}
+
+.fill-height-or-more {
+  display: flex;
+  flex-direction: column;
+}
+
+#aside_inner, #main_inner{
+    background-color: #e7fbff;
+  
+}
+
+li{
+    list-style: none;
 }
