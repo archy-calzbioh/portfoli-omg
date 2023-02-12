@@ -70,3 +70,13 @@ object{
     width: 100%;
 }
 }
+
+#face{ 
+    animation:2s rotate infinite linear; 
+    height: 100px;
+    padding: 15px;
+}
+
+@keyframes rotate{
+    100%{ transform:rotate(1turn) } // or 360deg
+}
