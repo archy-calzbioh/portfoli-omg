@@ -14,6 +14,19 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+test = "portfoli-omg"
+for (var i = 0; i < test.length; i++) {
+    const headGet = document.getElementById("bouncy_header")
+    headGet.append()
+    console.log(headGet)
+    const headerSpan = document.createElement("span")
+    headerSpan.append(test[i])
+    console.log(test[i])
+    headGet.append(headerSpan) 
+    console.log(headerSpan) 
+
+
+}
 
 
 $(document).ready(function () {
