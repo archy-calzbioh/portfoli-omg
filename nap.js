@@ -15,6 +15,7 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
+
 $(document).ready(function () {
   var counter = 0,
     $chars = $(".test").children();
