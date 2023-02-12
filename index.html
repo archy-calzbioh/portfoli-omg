@@ -7,61 +7,71 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
-     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
      
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- jquery-ui needed for .effect method -->
     <script
   src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
   integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c="
   crossorigin="anonymous"></script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
-   
-      <link rel="stylesheet" href="bootfile.css" />
-  </head>
-  <body>
     
-    <div class="m-2 d-flex flex-column justify-content-around align-items-stretch text-center ">
+    <link rel="stylesheet" href="bootfile.css" />
+    <title>Bootstrap demo</title>
+  </head>
+  
+  <body>
+
+<!-- header div  -->
+  <div class="m-2 d-flex flex-column justify-content-around align-items-stretch text-center ">
       <div class="shadow border border-dark rounded" id ="header">
-        <div class="row "><h1 class ="test m-1 p-1" id ="bouncy_header">
-        </h1></div>
-      </div>
-
-      <div >
-
-        <nav class= "d-flex m-1 row " id ="nav">
-          <a class="link active m-1 col border border-dark rounded rounded navbar justify-content-center shadow" href="#home" id="home">Home</a>
-          <a class="link m-1 col border border-dark rounded  navbar justify-content-center shadow" href="#" id="art">Art</a>
-          <a class= "link m-1 col border border-dark rounded  navbar justify-content-center shadow" href="#contact">Contact</a>
-          <a class="link m-1 col border border-dark rounded  navbar justify-content-center shadow" href="#about">About</a>
-          <div class=" m-1  col-6 border border-dark rounded  navbar justify-content-center shadow">5 of 5</div>
-      
-      </nav>
-      </div>
-      <div class=" m-1 p-1 row h-50 ">
-        <div class=" m-1 p-1 col border border-dark rounded aside shadow  d-flex">
-          <div class ="m-1 col border border-dark rounded " id = "aside_inner" >
-            <ul class= "d-flex flex-column align-items-stretch">
-              <li>A Wing And A Prayer Franciscan Chapel & Fried Chicken</li>
-              <li>Our Lady of Perpetual Griping</li>
-              <li>The St. Augustine Industrial Meganunnery</li>
-              <li>The Poly Styrene Foundation for a Germ Free Adolescence</li>
-            </ul> 
+        <div class="row ">
+          <h1 class ="test m-1 p-1" id ="bouncy_header">
+        </h1>
       </div>
     </div>
-        <div class="m-1 p-1 col-9 border border-dark rounded  main shadow d-flex" id="main">
-           <div class ="m-1 p-1 d-flex col border border-dark rounded" id = "main_inner" ><div class="col-12" id="main_content"></div><div></div>
+
+    <!-- navagation div -->
+    <div>
+      <nav class= "d-flex m-1 row " id ="nav">
+        <a class="link active m-1 col border border-dark rounded rounded navbar justify-content-center shadow" href="#home" id="home">Home</a>
+        <a class="link m-1 col border border-dark rounded  navbar justify-content-center shadow" href="#" id="art">Art</a>
+        <a class= "link m-1 col border border-dark rounded  navbar justify-content-center shadow" href="#contact">Contact</a>
+        <a class="link m-1 col border border-dark rounded  navbar justify-content-center shadow" href="#about">About</a>
+        <div class=" m-1  col-6 border border-dark rounded  navbar justify-content-center shadow">5 of 5</div>
+      </nav>
+    </div>
+
+    <!-- bioblurb div  -->
+    <div class=" m-1 p-1 row h-50 ">
+      <div class=" m-1 p-1 col border border-dark rounded aside shadow  d-flex">
+        <div class ="m-1 col border border-dark rounded " id = "aside_inner" >
+          <ul class= "d-flex flex-column align-items-stretch">
+            <li>A Wing And A Prayer Franciscan Chapel & Fried Chicken</li>
+            <li>Our Lady of Perpetual Griping</li>
+            <li>The St. Augustine Industrial Meganunnery</li>
+            <li>The Poly Styrene Foundation for a Germ Free Adolescence</li>
+          </ul> 
         </div>
       </div>
-      <div class="m-1 row ">
-        <div class=" col border border-dark rounded  footer shadow">1 of 4</div>
-        <div class=" col border border-dark rounded  footer shadow">2 of 4</div> 
-        <div class=" col border border-dark rounded  footer shadow">3 of 4</div>
-        <div class=" col border border-dark rounded  footer shadow">4 of 4</div>
-     
+    <!-- main div  -->
+      <div class="m-1 p-1 col-9 border border-dark rounded  main shadow d-flex" id="main">
+        <div class ="m-1 p-1 d-flex col border border-dark rounded" id = "main_inner" >
+        <div class="col-12" id="main_content">
+        </div>
       </div>
     </div>
+    <!-- bottom div  -->
+    <div class="m-1 row ">
+      <div class=" col border border-dark rounded  footer shadow">1 of 4</div>
+      <div class=" col border border-dark rounded  footer shadow">2 of 4</div> 
+      <div class=" col border border-dark rounded  footer shadow">3 of 4</div>
+      <div class=" col border border-dark rounded  footer shadow">4 of 4</div>
+    </div>
+  </div>
+
     <script src="nap.js"></script>
   </body>
 </html>

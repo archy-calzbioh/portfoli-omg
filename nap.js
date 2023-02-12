@@ -1,3 +1,5 @@
+//iterate over navbar elements change active element, display new page content in main div
+
 var navbar = document.getElementById("nav");
 var btns = navbar.getElementsByClassName("link");
 for (var i = 0; i < btns.length; i++) {
@@ -14,6 +16,8 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 
+//generate spans for arbitrary string
+
 test = "portfoli-omg"
 for (var i = 0; i < test.length; i++) {
     const headGet = document.getElementById("bouncy_header")
@@ -28,7 +32,7 @@ for (var i = 0; i < test.length; i++) {
 
 }
 
-
+//make text bounce
 $(document).ready(function () {
   var counter = 0,
     $chars = $(".test").children();
