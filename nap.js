@@ -6,8 +6,11 @@ for (var i = 0; i < btns.length; i++) {
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
     let myAnchor = document.getElementsByClassName("link active");
-    let text = myAnchor[0].getAttribute("href");
-    document.getElementById("main_inner").innerHTML = text;
+    let text = myAnchor[0].getAttribute("id");
+    document.getElementById("main_content").innerHTML =
+      '<object type="text/html" data="' + text + '.html" ></object>';
+    
+    
   });
 }
 

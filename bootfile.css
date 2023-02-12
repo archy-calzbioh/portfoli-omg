@@ -13,7 +13,7 @@ body{
 
 .main{
     background-color: #00ff9f;
-    height: 500px;
+    height: 700px;
 }
 
 .aside { 
@@ -50,4 +50,23 @@ a:hover:not(.active) {
 
 li{
     list-style: none;
+}
+
+object{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+    
+    width: 100%;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main .aside{
+    
+    width: 100%;
+}
 }
