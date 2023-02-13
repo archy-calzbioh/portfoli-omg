@@ -1,5 +1,9 @@
-body{
+ .not_resume{
     background-image: url(pallate.png);
+    font-family: 'Press Start 2P', cursive;
+}
+ body{
+   
     font-family: 'Press Start 2P', cursive;
 }
 
