@@ -98,5 +98,15 @@ object{
 }
 
 @keyframes rotate{
-    100%{ transform:rotate(1turn) } // or 360deg
+    100%{ transform:rotate(1turn) } 
+}
+
+
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+ul {
+    text-align: left;
 }
