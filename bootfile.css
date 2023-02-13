@@ -3,8 +3,9 @@
     font-family: 'Press Start 2P', cursive;
 }
  body{
-   
+    background-image: url(pallate.png);
     font-family: 'Press Start 2P', cursive;
+    
 }
 
 #header{
@@ -111,3 +112,6 @@ ul {
     text-align: left;
 }
 
+#resume_div{
+    background-color: white;
+}
