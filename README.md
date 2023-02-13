@@ -10,3 +10,11 @@ I used javascript to add visual effects for the active page tabs and to display 
 The layout on the art page is from a bootstrap snippet. 
 
 The app is hosted at https://lovely-twilight-2c624c.netlify.app/
+
+Issues: 
+
+Inconsistent navbars
+
+Aside and main aren't aligned on resize
+
+Bottom navbar spills on resize
